@@ -1,0 +1,60 @@
+*{
+  text-align: center;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+.title{
+text-align:center;
+margin-top: 18px;
+font-family: Helvetica;
+font-size: 96px;
+min-width: 960px;
+min-height: 120px;
+text-transform: uppercase;
+font-family: "Franklin ITC",sans-serif;
+font-weight: bold;
+font-style: normal;
+
+
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+
+}
+#new{
+  color:red;
+  text-align: center;
+
+}
+#new{    display: inline-block;
+    margin-right: 6px;
+    padding: 2px 4px;
+    color: #fff;
+    background: #bb3825;
+    border-radius: 4px;
+    line-height: 17px;
+    font-weight: normal;
+    text-align: match-parent;
+
+
+}
+h2{
+      color: #222;
+      font-size:28px;
+}
+.name{
+
+  color:#2455c3;
+}
+.comment{
+
+  text-decoration: none;
+  font-weight: normal;
+  color:#2455c3;
+
+}
+div{
+  font-weight: normal;
+}
