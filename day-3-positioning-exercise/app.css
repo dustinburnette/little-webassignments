@@ -1,3 +1,6 @@
+*{
+  font-family: sans-serif;
+}
 body{
   border: solid rgba(0, 0, 0, 0.25) 2px;
   border-radius: 3px;
@@ -25,4 +28,12 @@ ul{
 }
 li{
   color:blue;
+}
+h1{
+  color:rgba(0, 0, 0, 0.25);
+}
+image{
+  max-width: 100px;
+  max-height: 100px;
+
 }
