@@ -86,7 +86,7 @@ li a{
 
 }
 body{
-background-color: black;
+
 
 
 }
@@ -157,6 +157,15 @@ font-size: .46em;
 
 }
 
+
+
+
+
+
+
+
+
+
 .recent-projects{
   padding:50px 0;
   overflow:auto;
@@ -167,11 +176,44 @@ font-size: .46em;
 }
 .project{
   min-height: 200px;
-  width: 33.333333%;
+  width: 29.333333%;
   float:left;
-  background-color:gray;
-  outline:solid 1px red;
+  margin: 2%;
+  text-align: center;
 }
+.project h3{
+  font-size: 1.9em;
+  margin: 20px;
+  color:rgb(37, 137, 188);
+  font-family: Merriweather,serif;
+  font-weight:300;
+
+}
+.project p{
+  font-family:Helvetica;
+  font-style:italic;
+  margin:0;
+  font-weight: 300;
+  line-height: 2.3 rem;
+  color: #8492a4;
+  font-size:1.2em;
+
+}
+.project img{
+  max-width:90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .story{
   background-color: gray;
