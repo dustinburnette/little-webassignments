@@ -5,7 +5,7 @@
 }
 .title{
 text-align:center;
-margin-top: 18px;
+margin-top: -25px;
 font-family: Helvetica;
 font-size: 96px;
 min-width: 960px;
@@ -14,6 +14,7 @@ text-transform: uppercase;
 font-family: "Franklin ITC",sans-serif;
 font-weight: bold;
 font-style: normal;
+margin-bottom: -30px;
 
 
 }
@@ -26,6 +27,9 @@ img {
 #new{
   color:red;
   text-align: center;
+  font-size: 1em;
+  font-family: Helvetica;
+  font-weight:bold;
 
 }
 #new{    display: inline-block;
@@ -43,6 +47,8 @@ img {
 h2{
       color: #222;
       font-size:28px;
+      font-family: Helvetica;
+      margin-top: -6px;
 }
 .name{
 
@@ -57,4 +63,11 @@ h2{
 }
 div{
   font-weight: normal;
+  font-family: Helvetica;
+}
+div p{
+  font-family: georgia, serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
 }
