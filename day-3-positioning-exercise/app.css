@@ -62,11 +62,11 @@ table {
 
 
 
-.border{
+.container{
   border: solid 3px rgba(0, 0, 0, 0.25);
   border-radius: 3px;
   height: 500px;
-  width: 300px
+  width: 500px;
   position: relative;
   margin: 0 auto;
   font-family:Helvetica;
@@ -75,20 +75,63 @@ table {
   color:green;
   font-size:2em;
   padding:50 0;
-  margin:auto;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left:50px;
+
+
 }
 .circle{
   font-size:3.5em;
   position: absolute;
-  right:500px;
+  left:420px;
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.25);
   color:white;
   height:100px;
   width:100px;
   text-align:center;
+  z-index:1;
+}
+.css{
+  color:gray;
+  font-size:2em;
+  padding-bottom: 30px;
+  margin-top: 50px;
+  font-weight: bold;
+  margin-left: 50px;
 
+}
+ul{
+  list-style-type: square;
+  margin-left: 65px;
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 0, 0, 0.25);
+  line-height: 35px;
 
+}
+li{
+  text-decoration-color: rgba(0, 0, 0, 0.25);
+  color:#3086C9;
+  font-size: 1.5em;
 
+}
+.share{
+  color:gray;
+  font-size:2em;
+  padding-bottom: 30px;
+  margin-top: 50px;
+  font-weight: bold;
+  margin-left: 50px;
 
+}
+.images{
+  max-width:200px;
+  max-height:50px;
+  margin-left: 50px;
+}
+img{
+  height:50px;
+  width:50px;
+  padding:0 7px;
 }
